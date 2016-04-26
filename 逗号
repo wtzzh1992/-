@@ -1,0 +1,13 @@
+shoplist = ['a','b','c','d']
+print 'I have',len(shoplist),'items to purchase.'
+print 'These items are:',
+#有逗号
+for item in shoplist:
+    print item,
+
+shoplist = ['a','b','c','d']
+print 'I have',len(shoplist),'items to purchase.'
+print 'These items are:'
+#无逗号
+for item in shoplist:
+    print item,
